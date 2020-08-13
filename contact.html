@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>myTutorial.com</title>
+</head>
+
+<body class="p-3 mb-2 bg-white text-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><button type="button" class="btn btn-primary">myTutorial</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses Views
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="col-6 col-md">
+                            <h5>Features</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Events</a></li>
+                                <li><a class="text-muted" href="#">Compus tutorial</a></li>
+                                <li><a class="text-muted" href="#">Competition practice</a></li>
+                                <li><a class="text-muted" href="#">Blogs</a></li>
+                                <li><a class="text-muted" href="#">Groups competition</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Foundation,Algorithm & Advanced</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">C++ foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">JAVA foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">Python foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">Interview preparation</a></li>
+                                <li><a class="text-muted" href="#">Aptitude preparation course</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Career Tracks</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Competitive programmer</a></li>
+                                <li><a class="text-muted" href="#">Android developer</a></li>
+                                <li><a class="text-muted" href="#">Web developer</a></li>
+                                <li><a class="text-muted" href="#">Data scientist</a></li>
+                                <li><a class="text-muted" href="#">Machine learning engineer</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Data & Development</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Machine learning & deep learning course</a></li>
+                                <li><a class="text-muted" href="#">Android front-end web development with React</a></li>
+                                <li><a class="text-muted" href="#">Full stack web development</a></li>
+                                <li><a class="text-muted" href="#">Data science and machine learning complete</a></li>
+                                <li><a class="text-muted" href="#">Android development with Kotlin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link " href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/contact.html">Contact Us</a>
+                </li>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-warning my-2 my-sm-0 "><a href="classroom">My Classroom</a></button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#loginModal">Login</button>
+            </div>
+        </div>
+    </nav>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login to classroom</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember password</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+        <main role="main" class="inner cover py-md-5">
+            <h1 class="cover-heading text-center my-4"><u>CONTACT US</u></h1>
+            <h4><strong>Please Fill Your Required Details Below:</strong></h4>
+        </main>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationTooltip01">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="validationTooltip02">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationTooltip03">City</label>
+                    <input type="text" class="form-control" id="validationTooltip03" required>
+                    <div class="invalid-tooltip">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationTooltip04">State</label>
+                    <select class="custom-select" id="validationTooltip04" required name="state" id="state"
+                        class="form-control">
+                        <option selected disabled value="">Choose...</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                        <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                        <option value="Assam">Assam</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="Chandigarh">Chandigarh</option>
+                        <option value="Chhattisgarh">Chhattisgarh</option>
+                        <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                        <option value="Daman and Diu">Daman and Diu</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Lakshadweep">Lakshadweep</option>
+                        <option value="Puducherry">Puducherry</option>
+                        <option value="Goa">Goa</option>
+                        <option value="Gujarat">Gujarat</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                        <option value="Jharkhand">Jharkhand</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Manipur">Manipur</option>
+                        <option value="Meghalaya">Meghalaya</option>
+                        <option value="Mizoram">Mizoram</option>
+                        <option value="Nagaland">Nagaland</option>
+                        <option value="Odisha">Odisha</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="Sikkim">Sikkim</option>
+                        <option value="Tamil Nadu">Tamil Nadu</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="Tripura">Tripura</option>
+                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                        <option value="Uttarakhand">Uttarakhand</option>
+                        <option value="West Bengal">West Bengal</option>
+                    </select>
+                    <div class="invalid-tooltip">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationTooltip05">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip05" required>
+                    <div class="invalid-tooltip">
+                        Please provide a valid zip.
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your query related to</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Classroom Program</option>
+                    <option>Teaching Assistent </option>
+                    <option>Tutor</option>
+                    <option>Courses</option>
+                    <option>Events</option>
+                </select>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-sm-2">Are you a Member of myTutorial?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Explain your query in detail.</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="container-fluid py-5 bg-dark text-white my-4 ">
+    <div class="row">
+        <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                viewBox="0 0 24 24" focusable="false">
+                <title>Product</title>
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                    d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                </path>
+            </svg>
+            <small class="d-block mb-3 text-muted">© Aug-2020</small>
+            <p>@ imagination : sr_sharma</p>
+            <p><strong>Email:</strong><small class="d-block mb-3 text-muted">msbmimagination1994@gmail.com</small></p>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Events</a></li>
+                <li><a class="text-muted" href="#">Compus tutorial</a></li>
+                <li><a class="text-muted" href="#">Competition practice</a></li>
+                <li><a class="text-muted" href="#">Blogs</a></li>
+                <li><a class="text-muted" href="#">Groups competition</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Foundation,Algorithm & Advanced</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">C++ foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">JAVA foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">Python foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">Interview preparation</a></li>
+                <li><a class="text-muted" href="#">Aptitude preparation course</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Career Tracks</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Competitive programmer</a></li>
+                <li><a class="text-muted" href="#">Android developer</a></li>
+                <li><a class="text-muted" href="#">Web developer</a></li>
+                <li><a class="text-muted" href="#">Data scientist</a></li>
+                <li><a class="text-muted" href="#">Machine learning engineer</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Data & Development</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Machine learning & deep learning course</a></li>
+                <li><a class="text-muted" href="#">Android front-end web development with React</a></li>
+                <li><a class="text-muted" href="#">Full stack web development</a></li>
+                <li><a class="text-muted" href="#">Data science and machine learning complete</a></li>
+                <li><a class="text-muted" href="#">Android development with Kotlin</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>myTutorial.com</title>
+</head>
+
+<body class="p-3 mb-2 bg-white text-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><button type="button" class="btn btn-primary">myTutorial</button></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Courses Views
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="col-6 col-md">
+                            <h5>Features</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Events</a></li>
+                                <li><a class="text-muted" href="#">Compus tutorial</a></li>
+                                <li><a class="text-muted" href="#">Competition practice</a></li>
+                                <li><a class="text-muted" href="#">Blogs</a></li>
+                                <li><a class="text-muted" href="#">Groups competition</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Foundation,Algorithm & Advanced</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">C++ foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">JAVA foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">Python foundation with data structures</a></li>
+                                <li><a class="text-muted" href="#">Interview preparation</a></li>
+                                <li><a class="text-muted" href="#">Aptitude preparation course</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Career Tracks</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Competitive programmer</a></li>
+                                <li><a class="text-muted" href="#">Android developer</a></li>
+                                <li><a class="text-muted" href="#">Web developer</a></li>
+                                <li><a class="text-muted" href="#">Data scientist</a></li>
+                                <li><a class="text-muted" href="#">Machine learning engineer</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown-divider"></div>
+                        <div class="col-6 col-md">
+                            <h5>Data & Development</h5>
+                            <ul class="list-unstyled text-small">
+                                <li><a class="text-muted" href="#">Machine learning & deep learning course</a></li>
+                                <li><a class="text-muted" href="#">Android front-end web development with React</a></li>
+                                <li><a class="text-muted" href="#">Full stack web development</a></li>
+                                <li><a class="text-muted" href="#">Data science and machine learning complete</a></li>
+                                <li><a class="text-muted" href="#">Android development with Kotlin</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                </li>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-warning my-2 my-sm-0 "><a href="classroom">My Classroom</a></button>
+            </form>
+            <div class="mx-2">
+                <button class="btn btn-info btn-sm" data-toggle="modal" data-target="#loginModal">Login</button>
+            </div>
+        </div>
+    </nav>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="loginModalLabel">Login to classroom</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember password</label>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="about_rainbow.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block align-center">
+                    <h2><strong>Our Mission</strong></h2>
+                    <p>
+                    <h3>To change the face of Tech Education in India</h3>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <main role="main" class="inner cover py-md-5">
+            <h1 class="cover-heading text-center my-4">About Us</h1>
+            <p _ngcontent-nte-c157="" class="text" style="text-align: center;">There is a reason why we take pride in
+                branding ourselves as the best programming language platform in India. Our instructors, graduates from
+                Stanford University, IITs, IIITs, are Master craftsmen with years of industry experience at Facebook,
+                Amazon, American Express, Times Internet, etc. At myTutorial, our mission is to continuously innovate
+                the best ways to train the next generation of developers and to transform the way tech education is
+                delivered. We’re constantly evolving how we train amazing developers, as staying stagnant is not an
+                option. We approach our educational philosophy as a never-ending journey of self-improvement and we
+                apply it to everything we do.</p>
+        </main>
+    </div>
+
+    <div class="container py-md-5">
+        <h1 class="cover-heading text-center my-4"><strong>What Separates Us?</strong></h1>
+    </div>
+
+    <div class="container marketing">
+
+        <!-- START THE FEATURETTES -->
+
+        <div class="row featurette">
+            <div class="col-md-7 py-md-5">
+                <h2 class="featurette-heading">Educators First, Developers Second </h2>
+                <p _ngcontent-nte-c157="" class="text" style="text-align: left;">Educators First, Developers Second
+                    Education is about more than
+                    conveying information - it's about understanding how people think, learn and truly grasp the
+                    material at hand. We understand that every new concept requires a unique approach and that even the
+                    most advanced subject-matter experts must also be well-trained educators to produce great results.
+                    That's why all of our Lead Instructors are experienced educators as well as professional developers.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid rounded float-right" width="350" height="350" ;" src="educator.jpg">
+            </div>
+        </div>
+
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2 py-md-5 px-md-10">
+                <h2 class="featurette-heading">Custom Curriculum Created by Expert Educators</span></h2>
+                <p _ngcontent-nte-c157="" class="text mr-md-5" style="text-align:left;">Our Lead Instructors design and
+                    curate the curriculum using the
+                    best educational practices and careful consideration of how people learn and retain information with
+                    the ongoing tech trends in the professional domain. We've debated every facet of our methodology,
+                    from the order in which to teach concepts, the analogies used to clarify them and how exercises
+                    should be structured to deliver the maximum educational punch.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class=" img-fluid rounded float-left" width="350" height="350" src="curriculum2.jpg">
+            </div>
+        </div>
+
+
+        <div class="row featurette">
+            <div class="col-md-7 py-md-5">
+                <h2 class="featurette-heading">Keep Your Current Job While You Switch Careers</h2>
+                <p _ngcontent-nte-c157="" class="text" style="text-align: left;">Whether you are student of working
+                    professional, we believe that
+                    you don't need to quit your current job and put your life on hold to learn to code. Choices between
+                    weekend/weekdays offline classe courses, flexibility over online programs and excellent curriculum
+                    and top-notch educators like ours, you can learn more in less time. Our alumni have proven this
+                    again and again.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid rounded float-right" width="350" height="350" src="job_career.jpg">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container1 fluid py-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="fig1.jpg" class="d-block w-100" width='100%' height='200' alt="...">
+                    <div class="carousel-caption d-none d-md-block align-center">
+                        <h1 class='text-info'><strong>Our Online Course</strong></h1>
+                        <p>
+                        <h3>Can’t attend one of our classroom programs? Emulate our classroom experience exactly in our
+                            online programs</h3>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container2 py-5">
+        <h3><strong>Why Learn Programming ONLINE At myTutorial?</strong></h3>
+        <p _ngcontent-nte-c157="" class="text">Same instructors, same courses, and the same content but your own
+            schedule. Learn coding online whenever and wherever you want with our online classrooms! We have an
+            experience of teaching more than 4000 students in our classroom programs. The success of offline courses and
+            huge demand motivated us to expand our reach and impact more lives. Our online programming classes are
+            adaptive and judge the codes instantly. Here, we replicate our offline classroom experience with the help of
+            Teaching Assistants. The TA to student ratio is 1:10. TAs clear doubts and queries during specific allotted
+            time frames in addition to holding weekly doubt session webinars</p>
+
+        <h1 class="cover-heading text-center my-4"><strong>Our Classroom Model</strong></h1>
+        <div class="row py-md-5">
+            <div class="col-lg-3">
+                <img class="img-fluid rounded-circle" src="foundation.jpg" width="140" height="140" focusable="false" role="img">
+                <h3>Foundation</h3>
+                <p _ngcontent-nte-c157="" class="text">We are one of the computer programming courses in Delhi that
+                    start from scratch, introducing you to the concepts of how software is designed and implemented.
+                    Being one of the best computer programming courses in India, we take you beyond the tools and show
+                    you the principles underneath. In your journey as a software apprentice, you will learn to keep your
+                    skills fresh and be able to expand into new languages and frameworks.</p>
+            </div><!-- /.col-lg-4 -->
+
+
+            <div class="col-lg-3">
+                <img class="img-fluid rounded-circle" src="immersion.jpg" width="140" height="140" focusable="false" role="img">
+                <h3>Immersion</h3>
+                <p _ngcontent-nte-c157="" class="text">Our programming courses immerse you in learning. There are no
+                    large lecture halls here, no inexperienced teacher’s aides and no “only theories”. In the myTutorial
+                    programs, you will be embedded with a small, focused group of motivated learners like yourself with
+                    a master Ninja Mentor guiding you in every step of the way.</p>
+            </div><!-- /.col-lg-4 -->
+
+
+            <div class="col-lg-3">
+                <img class="img-fluid rounded-circle" src="reinforcement.jpg" width="140" height="140" focusable="false"
+                    role="img">
+                <h3>Reinforcement</h3>
+                <p _ngcontent-nte-c157="" class="text">We have a series of topics to practice assignments, exercises,
+                    and projects to reinforce your learning. Learn programming in Delhi and periodically, we will
+                    challenge you with coding quizzes, team mastery projects and you will have the opportunity to create
+                    a project of your design while you to demonstrate the practical application of your new skills.</p>
+            </div><!-- /.col-lg-4 -->
+
+
+            <div class="col-lg-3">
+                <img class="img-fluid rounded-circle" src="mastery.jpg" width="140" height="140" focusable="false" role="img">
+                <h3>Mastery</h3>
+                <p _ngcontent-nte-c157="" class="text">Your journey does not end after the completion of the course. We,
+                    as one of the most dedicated programming courses, want to stay involved with our students even after
+                    course completion, giving them access to our expanding community, events and networking
+                    opportunities. The journey from Novice to Ninja takes hours; myTutorial and your peers will be there
+                    to guide you along the way.</p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+<footer class="container-fluid py-5 bg-dark text-white my-4 ">
+    <div class="row">
+        <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                viewBox="0 0 24 24" focusable="false">
+                <title>Product</title>
+                <circle cx="12" cy="12" r="10"></circle>
+                <path
+                    d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                </path>
+            </svg>
+            <small class="d-block mb-3 text-muted">© 2017-2020</small>
+            <p>@ imagination : sr_sharma</p>
+            <p><strong>Email:</strong><small class="d-block mb-3 text-muted">msbmimagination1994@gmail.com</small></p>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Events</a></li>
+                <li><a class="text-muted" href="#">Compus tutorial</a></li>
+                <li><a class="text-muted" href="#">Competition practice</a></li>
+                <li><a class="text-muted" href="#">Blogs</a></li>
+                <li><a class="text-muted" href="#">Groups competition</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Foundation,Algorithm & Advanced</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">C++ foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">JAVA foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">Python foundation with data structures</a></li>
+                <li><a class="text-muted" href="#">Interview preparation</a></li>
+                <li><a class="text-muted" href="#">Aptitude preparation course</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Career Tracks</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Competitive programmer</a></li>
+                <li><a class="text-muted" href="#">Android developer</a></li>
+                <li><a class="text-muted" href="#">Web developer</a></li>
+                <li><a class="text-muted" href="#">Data scientist</a></li>
+                <li><a class="text-muted" href="#">Machine learning engineer</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Data & Development</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Machine learning & deep learning course</a></li>
+                <li><a class="text-muted" href="#">Android front-end web development with React</a></li>
+                <li><a class="text-muted" href="#">Full stack web development</a></li>
+                <li><a class="text-muted" href="#">Data science and machine learning complete</a></li>
+                <li><a class="text-muted" href="#">Android development with Kotlin</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</html>
